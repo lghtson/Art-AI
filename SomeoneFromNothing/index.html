@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Someone From Nothing</title>
+    </head>
+
+    <body>
+        <section id = "intro">
+            <p>Answer a few of our questions. <br><br> Our system will return a profile which may or may not have existed.</p>
+
+            <button id = "start-button">Start</button>
+        </section>
+
+        <section id = "question-screen" class = "hidden">
+            <input type = "text" id = "name" placeholder= "What was their name?">
+            <input type = "text" id = "city" placeholder= "What city were they from?">
+            <input type = "text" id = "hobby" placeholder= "What did they like to do?">
+            <input type = "text" id = "song" placeholder= "What was their favourite song?">
+            <input type = "text" id = "secret" placeholder= "What was their deepest secret?">
+            <input type = "text" id = "fear" placeholder= "What were they afraid of?">
+            <input type = "text" id = "photo-style" placeholder= "What kind of photos did they post late at night?">
+
+            <button id = "gen-button">Generate</button>
+        </section>
+
+        <section id = "loading-screen" class = "hidden">
+            <h2>Reconstructing identity...</h2>
+            <p id = 'loading-text'>Searching behavioural traces...</p>
+        </section>
+
+        <section id = "profile" class = "hidden">
+            <div class = "profile-header">
+                <img src = "assets/generated/profile1.png">
+                
+                <div>
+                    <h2 id = "profile-name"></h2>
+                    <p id = "posts"></p>
+                    <p id = "friends"></p>
+                    <p id = "profile-bio"></p>
+                </div>
+            </div>
+
+            <div class = "post-grid">
+                <img src = "assets/generated/post1.png" onclick = "openPost(0)">
+                <img src = "assets/generated/post2.png" onclick = "openPost(1)">
+                <img src = "assets/generated/post3.png" onclick = "openPost(2)">
+                <img src = "assets/generated/post4.png" onclick = "openPost(3)">
+                <img src = "assets/generated/post5.png" onclick = "openPost(4)">
+                <img src = "assets/generated/post6.png" onclick = "openPost(5)">
+            </div>
+
+            <button id = "regen-button">Regenerate</button>
+            <button onclick="showDMs()">View DMs</button>
+            
+        </section>
+
+        <section id = "post-screen" class = "hidden">
+            <div class = "phone-frame post-preview">
+                <button class = "back-button" onclick = "closePost()">←</button>
+                
+                <img id = "expanded-post-image">
+                <div class = "post-actions">
+                    <span>❤️</span>
+                    <span id = "expanded-post-likes"></span>
+        
+                    <span>💬</span>
+                    <span id = "comment-count">5</span>
+        
+                </div>
+        
+                <p id = "expanded-post-caption"></p>
+                <p id = "expanded-post-time"></p>
+        
+                <div id = "expanded-post-comments"></div>
+            </div>
+        </section>
+
+        <section id = "dm-screen" class = "hidden">
+            <div class = "phone-frame dm-preview">
+                
+                <div class = "dm-search-row">
+                    <button class = "plus-button">+</button>
+                    <input id = "dm-search" placeholder = "search..." disabled>        
+                </div>
+
+                <div id = "dm-list"></div>
+
+                <div class = "bottom-nav">
+                    <button onclick = "showProfile()">Profile</button>
+                </div>
+            </div>
+        </section>
+        
+        <script src = "script.js"></script>
+    </body>
+</html>
