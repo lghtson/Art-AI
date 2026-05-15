@@ -1,6 +1,8 @@
 # Art&AI
 Art and Artificial Intelligence 2026
 
+Link to Artwork demonstration: https://artslondon-my.sharepoint.com/:v:/g/personal/c_bola0820241_arts_ac_uk/IQAWoBpBVvitQbi2ZS-_yWQhAUtpuEoAQBw5hGVqcE78Wc0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=I86wml
+
 ## Someone From Nothing
 This is an interactive artwork where a generated social media profile is generated based on the user responses to prompts. The profile generated would include posts, captions, comments and DM's all based on the information provided by the user. Each regeneration may change the generated profile, slightly or completely, to question how AI can reconstruct identity from incomplete or already existing data.
 
