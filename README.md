@@ -4,7 +4,7 @@ Art and Artificial Intelligence 2026
 Link to Artwork demonstration: https://artslondon-my.sharepoint.com/:v:/g/personal/c_bola0820241_arts_ac_uk/IQAWoBpBVvitQbi2ZS-_yWQhAUtpuEoAQBw5hGVqcE78Wc0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=I86wml
 
 ## Someone From Nothing
-This is an interactive artwork where a generated social media profile is generated based on the user responses to prompts. The profile generated would include posts, captions, comments and DM's all based on the information provided by the user. Each regeneration may change the generated profile, slightly or completely, to question how AI can reconstruct identity from incomplete or already existing data.
+This is an interactive artwork where a social media profile is generated based on the user responses to prompts. The profile created would include posts, captions, comments and DM's all based on the information provided by the user. Each regeneration may change the profile layout, slightly or completely, to question how AI can reconstruct identity from incomplete or already existing data.
 
 MPQ: How much data is needed before an AI-generated identity begins to feel emotionally real and could they co-exist with genuine accounts?
 
@@ -13,6 +13,15 @@ User Journey:
 
 Visual Guide:
 ![User Flow Guide](userFlowGuide.png)
+
+## Technical Stack
+
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Express.js
+- OpenAI Image Generation API
 
 Minimum Viable Artwork
 The project isnt a full social media platform, although further developments of the project could allow to explore that avenue. There arent any real user accounts, live messaging or any real social networking functions - i wanted to make it more of an archive of a profile rather than one that users can interact and change.
@@ -25,22 +34,13 @@ The minimum the artwork should have:
 - DM preview panel
 - regenerate button
 
-Initial Interface Development
-Focusing on building website foundation. Establishing visual language and user journey before AI implimentaion
+## Initial Interface Development
+Focusing on building website foundation. Establishing visual language and user journey before AI implimentaion.
 - Multi-screen nav
 - Simulated profile layout
 - placeholder post generation
 - DM preview structure
 - UI implementation
-
-## Technical Stack
-
-- HTML
-- CSS
-- JavaScript
-- Node.js
-- Express.js
-- OpenAI Image Generation API
 
 ## Navigation Prototype
 
